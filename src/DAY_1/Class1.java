@@ -23,6 +23,8 @@ public class Class1 {
         System.out.println(exp);
         System.out.println(mod);
 
+         //check even or odd number
+        System.out.println("even odd");
         if(a % 2 ==0){
             System.out.println("The number is even");
         }
@@ -31,6 +33,8 @@ public class Class1 {
         }
         System.out.println("Condition exited");
 
+// greater than or equalto
+        System.out.println("Equal or greater");
         if(a ==b ){
             System.out.println("a is equal to b");
 
@@ -45,6 +49,8 @@ public class Class1 {
             }
         }
 //         marks condition checker
+        System.out.println("checking marks");
+        System.out.print("Enter marks : ");
         int marks=sc.nextInt();
         if (marks > 90){
             System.out.println("Excellent");
@@ -63,6 +69,19 @@ public class Class1 {
             else {
                 System.out.println("below par");
             }
+        }
+        // using while to print
+
+        int i = 1;
+        while (i<=10){
+            System.out.println(i);
+            i++;
+        }
+        // usage of for loop
+        System.out.println("Using for loop");
+
+        for(int j = 1; j <= 9; j++){
+            System.out.println(j);
         }
     }
 }

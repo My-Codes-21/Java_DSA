@@ -18,3 +18,11 @@ public class Pattern_1 {
         }
     }
 }
+
+
+// Eg by taking input as 5
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
